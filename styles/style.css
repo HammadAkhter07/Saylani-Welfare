@@ -38,6 +38,13 @@
 .main {
     padding: 25px 60px 0px 60px;
 }
+.General {
+    padding: 20px 40px;
+}
+/* .fixed-top {
+    background-color: white;
+    top: 50px;
+} */
 /* .para1 {
     margin-bottom: 30px;
 }
@@ -116,6 +123,9 @@
         display: none;
     }
     #content-size {
+        font-size: 2.7rem;
+    }
+    .para2 {
         font-size: 2rem;
     }
     #chota-para {
@@ -123,3 +133,9 @@
     }
     
 }
+/* @media (max-width: 768px) {
+.explore-btn {
+    font-size: 1.3rem;
+    padding: 50px;
+}
+} */
