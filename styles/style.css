@@ -1,3 +1,14 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 #eng-but {
     padding: 5px 18px;
     border: 1px solid #808080;
@@ -39,31 +50,44 @@
     padding: 25px 60px 0px 60px;
 }
 .General {
-    padding: 20px 40px;
+    padding: 15px 20px;
+    background-color: #424242;
+    border: 1px solid #424242;
+    border-radius: 5px 0px 0px 5px;
+    font-style: bold;
+   
 }
-/* .fixed-top {
-    background-color: white;
-    top: 50px;
-} */
-/* .para1 {
+.Rs {
+    padding: 15px 15px;
+    background-color: #424242;
+    border: 1px solid #424242;
+    border-radius: 0px 5px 5px 0px;
+    font-style: bold;
+}
+.input {
+    width: 150px;
+    font-size: 1.6rem;
+    height: 50px;
+}
+.donate{
+    background-color: #B6EF49;
+}
+.chanda-div {
     margin-bottom: 30px;
+    
+    
 }
-.para2 {
-    margin-bottom: 10px;
-} */
-/* @media (min-width: 2560px){
-    .img {
-     width: 800px;
-    }
-    .content-size {
-     font-size: 8rem;
-    }
-    .main {
-        padding: 10px;
-        width: 50%;
-    }
-      
- } */
+.chanda-child {
+    background-color: #c2ec749d;
+    border-radius: 10px;
+    
+}
+.btn {
+    font-weight: 700;
+}
+
+/* media querries */
+
  @media (max-width: 1316px) {
     .main {
         padding: 25px 40px;
@@ -83,15 +107,7 @@
         font-size: 3rem;
     }
 }
-/* @media (max-width: 640px) {
-    #child-nav {
-        display: none;
 
-    }
-    #super-div {
-        height: 30px;
-    }
-} */
 @media (max-width: 910px) {
     #eng-but {
        display: none;
