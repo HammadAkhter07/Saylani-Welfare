@@ -33,7 +33,12 @@ input[type=number] {
     padding: 10px 25px;
     border-radius: 5px;
     margin-right: 10px;
+   
 } 
+#dnt-btun:hover {
+    animation: bounceIn;
+    animation-duration: 2s;
+}
 #secondnav {
     padding: 10px 40px;
     border-bottom: 1px solid #808080c9;
@@ -56,8 +61,10 @@ input[type=number] {
     border-radius: 5px 5px 5px 5px;
     font-style: bold;
     text-align: center;
-
    
+}
+.Rs {
+    padding: 0px 20px;
 }
 /* .Rs {
 
@@ -75,13 +82,10 @@ input[type=number] {
 
 .chanda-div {
     margin-bottom: 30px;
-    
-    
 }
 .chanda-child {
     background-color: #c2ec749d;
     border-radius: 10px;
-    
 }
 #donate {
     background-color: #B6EF49;
@@ -92,13 +96,11 @@ input[type=number] {
     cursor: pointer;
 }
 .btn {
-    
     padding: 10px 25px;
     border-radius: 10px;
 }
 
 #four {
-   
      background-color: white;
      font-weight: 700;             
     
@@ -171,13 +173,37 @@ input[type=number] {
         font-size: 2rem;
     }
     #chota-para {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     
 }
-/* @media (max-width: 768px) {
-.explore-btn {
+@media (max-width: 768px) {
+#explore-btn {
     font-size: 1.3rem;
     padding: 50px;
+    font-weight: 500;
 }
-} */
+#bar {
+    align-items: center;
+    justify-content: center;
+}
+.General {
+    align-items: center;
+    justify-content: center;
+}
+.input {
+   width: 100%;
+}
+}
+@media (max-width: 425px) {
+#explore-btn {
+        padding: 20px;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    /* .input {
+        width: 100%;
+        font-size: 1.5rem;
+        height: 50px;
+    } */
+ }
