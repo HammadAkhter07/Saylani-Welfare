@@ -50,28 +50,29 @@ input[type=number] {
     padding: 25px 60px 0px 60px;
 }
 .General {
-    padding: 15px 20px;
+    padding: 0px 20px;
     background-color: #424242;
     border: 1px solid #424242;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 5px 5px 5px;
     font-style: bold;
+    text-align: center;
+
    
 }
-.Rs {
+/* .Rs {
+
     padding: 15px 15px;
     background-color: #424242;
     border: 1px solid #424242;
     border-radius: 0px 5px 5px 0px;
     font-style: bold;
-}
+} */
 .input {
-    width: 150px;
+    width: 155px;
     font-size: 1.6rem;
     height: 50px;
 }
-.donate{
-    background-color: #B6EF49;
-}
+
 .chanda-div {
     margin-bottom: 30px;
     
@@ -82,10 +83,35 @@ input[type=number] {
     border-radius: 10px;
     
 }
+#donate {
+    background-color: #B6EF49;
+}
+#donate:hover {
+    animation: bounceIn;
+    animation-duration: 1s;
+    cursor: pointer;
+}
 .btn {
-    font-weight: 700;
+    
+    padding: 10px 25px;
+    border-radius: 10px;
 }
 
+#four {
+   
+     background-color: white;
+     font-weight: 700;             
+    
+}
+
+#four:hover {
+    animation: bounceIn;
+    animation-duration: 2s;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
 /* media querries */
 
  @media (max-width: 1316px) {
@@ -120,7 +146,7 @@ input[type=number] {
         display: none;
     }
 }
-@media (max-width: 680px){
+@media (max-width: 680px) {
     .child-nav {
         display: none;
     }
