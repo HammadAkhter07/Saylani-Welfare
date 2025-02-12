@@ -7,7 +7,7 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+  --moz-appearance: textfield;
 }
 #eng-but {
     padding: 5px 18px;
@@ -23,7 +23,7 @@ input[type=number] {
     font-weight: 500;
     
 }
- .text-grey-0 {
+.text-grey-0 {
     color:  #666666;
     font-weight: 700;
     font-style: bold;
@@ -80,9 +80,9 @@ input[type=number] {
     height: 50px;
 }
 
-.chanda-div {
-    margin-bottom: 30px;
-}
+/* .chanda-div {
+    margin-bottom: 10px;
+} */
 .chanda-child {
     background-color: #c2ec749d;
     border-radius: 10px;
@@ -114,7 +114,18 @@ input[type=number] {
     color: white;
 
 }
+
+/* bakra */
+/* .carousel-item {
+    height: 100vh;
+} */
 /* media querries */
+/* @media (min-width: 1024px )
+{
+    .carousel-item {
+        height: 600px;
+    }  
+} */
 
  @media (max-width: 1316px) {
     .main {
