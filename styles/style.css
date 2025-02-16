@@ -115,10 +115,79 @@ input[type=number] {
 
 }
 
+/* what wala section */
+.abbu {
+    margin-bottom: 30px;
+}
+.donation-bar {
+    background-color: RGBA(182, 239, 73, 0.3);    
+    padding: 20px 50px;
+
+}
+.donation-bar:hover {
+    animation: zoomIn;
+    animation-duration: 0.5s;
+}
+
+
+
+@media(max-width:1246px) {
+    .sponsor{
+        width: 300px;
+    }
+}
+@media(max-width:963px) {
+.sponsor-parent {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+}
+@media(max-width:633px){
+    .sponsor{
+        width: 550px;
+        height: 300px;
+    }
+}
+@media(max-width:580px){
+    .sponsor {
+        width: 450px;
+        height: 250px;
+    }
+}
+@media(max-width:480px){
+    .sponsor {
+        width: 350px;
+    }
+}
+@media(max-width:380px){
+    .sponsor {
+        width: 250px;
+        height: 200px;
+    }
+}
+@media (max-width:1024px){
+    .education {
+        padding: 20px 40px;
+    }
+}
+
+@media(max-width:361px){
+    .donation-bar{
+        padding: 20px 110px;
+    }
+    .education {
+        padding: 20px 100px; 
+}
+    
+}
+
+
+
 /* bakra */
 /* .carousel-item {
     height: 100vh;
 } */
+
 /* media querries */
 /* @media (min-width: 1024px )
 {
