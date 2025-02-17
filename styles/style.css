@@ -129,41 +129,105 @@ input[type=number] {
     animation-duration: 0.5s;
 }
 
+/* food  */
+.projects-image1 {
+    background-color: 
+    RGB(238, 238, 238);
 
+}
+.projects-image4 {
+    padding: 20px 5px;
+}
+.Projects {
+    padding: 15px 20px;
+}
+.projects-image3 {
+    margin-left: 10px;
+}
+.other {
+    margin-left: 30px;
+}
+.total {
+    margin-bottom: 20px;
+}
+/* testimonial */
+.testimonial {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+@media(max-width:1250px){
+    .main-food {
+    width: 900px; 
+    height: 600px;
+    margin-bottom: 20px;
+    }
+    .sponsor-parent {
+        flex-wrap: wrap;
+         row-gap: 20px;
+    }
+    
+}
+@media(max-width:925px){
+    .main-food {
+    width: 600px; 
+    height: 400px;
+   
+    }
+   
+}
 
 @media(max-width:1246px) {
     .sponsor{
         width: 300px;
     }
 }
-@media(max-width:963px) {
-.sponsor-parent {
-    flex-wrap: wrap;
-    row-gap: 20px;
-}
-}
+
 @media(max-width:633px){
     .sponsor{
         width: 550px;
         height: 300px;
     }
+    .main-food {
+        width: 550px; 
+        
+}
 }
 @media(max-width:580px){
     .sponsor {
         width: 450px;
         height: 250px;
     }
+    .main-food {
+        width: 450px; 
+        height: 250px;
+        
+}
 }
 @media(max-width:480px){
     .sponsor {
         width: 350px;
     }
+    .main-food {
+        width: 350px; 
+       
+        
+}
 }
 @media(max-width:380px){
     .sponsor {
         width: 250px;
         height: 200px;
     }
+    .main-food {
+        width: 250px; 
+        height: 200px;
+        
+}
 }
 @media (max-width:1024px){
     .education {
