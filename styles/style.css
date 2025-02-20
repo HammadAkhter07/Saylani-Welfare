@@ -155,8 +155,24 @@ input[type=number] {
     margin-top: 60px;
     margin-bottom: 30px;
 }
+.fri {
+    width: 100px;
+}
+.form-control {
+    width: 40vw;
+    background-color: transparent;
+    color: white;
+    
+    
+}
+.btn-end {
+    width: 40vw;
+    margin-bottom: 30px;
+}
 
-
+#footer {
+    background-color: #424242;
+}
 
 
 
@@ -326,6 +342,31 @@ input[type=number] {
     font-size: 1.3rem;
     padding: 50px;
     font-weight: 500;
+}
+.foot-img {
+    width: 200px;
+
+}
+.fb-foot {
+    justify-content: center;
+}
+/* #footer {
+    display: none;
+} */
+#footer {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px); */
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
+    
+
+}
+
+.foot-logo {
+    width: 30px;
+    height: 30px;
 }
 #bar {
     align-items: center;
